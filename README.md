@@ -1,8 +1,8 @@
 # RxSwiftSignInExample
 
-<kbd>
-    <img src="Media/sign_in.gif?raw=true" style="border: 1px solid #BFBFBF; margin-left: -3px; background-color: white; box-shadow: 6px 6px 3px #aaaaaa;" alt="Sign-in Movie"> 
-</kbd>
+<p align="center">
+    <img src="Media/sign_in.gif?raw=true" alt="Sign-in Movie"> 
+</p>
 
 ## **About**
 
