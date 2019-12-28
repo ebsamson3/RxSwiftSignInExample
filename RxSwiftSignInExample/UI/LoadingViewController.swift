@@ -1,6 +1,6 @@
 //
 //  LoadingViewController.swift
-//  Doodler
+//  RxSwiftSignInExample
 //
 //  Created by Edward Samson on 12/27/19.
 //  Copyright © 2019 Edward Samson. All rights reserved.

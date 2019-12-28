@@ -1,6 +1,6 @@
 //
 //  TextCell.swift
-//  Doodler
+//  RxSwiftSignInExample
 //
 //  Created by Edward Samson on 12/18/19.
 //  Copyright © 2019 Edward Samson. All rights reserved.

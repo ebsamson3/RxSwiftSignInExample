@@ -1,6 +1,6 @@
 //
 //  SignOutViewModel.swift
-//  Doodler
+//  RxSwiftSignInExample
 //
 //  Created by Edward Samson on 12/26/19.
 //  Copyright © 2019 Edward Samson. All rights reserved.

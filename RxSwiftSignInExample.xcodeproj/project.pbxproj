@@ -10,47 +10,46 @@
 		0BA6C179E34422D279FB8D3B /* Pods_RxSwiftSignInExample.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DC7060414331C8905581DEA6 /* Pods_RxSwiftSignInExample.framework */; };
 		0EC56097EB5DBE855C349CCC /* Pods_RxSwiftSignInExampleTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D58FF392631AB6C57CBBF8CA /* Pods_RxSwiftSignInExampleTests.framework */; };
 		5F7319E023B73F1300B09BDD /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F7319DF23B73F1300B09BDD /* AppDelegate.swift */; };
-		5F7319E423B73F1300B09BDD /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F7319E323B73F1300B09BDD /* ViewController.swift */; };
 		5F7319E723B73F1300B09BDD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5F7319E523B73F1300B09BDD /* Main.storyboard */; };
 		5F7319E923B73F1500B09BDD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5F7319E823B73F1500B09BDD /* Assets.xcassets */; };
 		5F7319EC23B73F1500B09BDD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5F7319EA23B73F1500B09BDD /* LaunchScreen.storyboard */; };
 		5F7319F723B73F1500B09BDD /* RxSwiftSignInExampleTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F7319F623B73F1500B09BDD /* RxSwiftSignInExampleTests.swift */; };
 		5F731A0223B743FB00B09BDD /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 5F731A0123B743FB00B09BDD /* GoogleService-Info.plist */; };
-		5F731A2D23B7452100B09BDD /* ObservableType+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F731A0423B7451F00B09BDD /* ObservableType+Extensions.swift */; };
-		5F731A2E23B7452100B09BDD /* NSLayoutConstraint+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F731A0523B7451F00B09BDD /* NSLayoutConstraint+Extensions.swift */; };
-		5F731A2F23B7452100B09BDD /* AppCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F731A0723B7452000B09BDD /* AppCoordinator.swift */; };
-		5F731A3023B7452100B09BDD /* AuthCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F731A0823B7452000B09BDD /* AuthCoordinator.swift */; };
-		5F731A3123B7452100B09BDD /* FadeIn.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F731A0923B7452000B09BDD /* FadeIn.swift */; };
-		5F731A3223B7452100B09BDD /* Router.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F731A0A23B7452000B09BDD /* Router.swift */; };
-		5F731A3323B7452100B09BDD /* MainCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F731A0B23B7452000B09BDD /* MainCoordinator.swift */; };
-		5F731A3423B7452100B09BDD /* RouterProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F731A0C23B7452000B09BDD /* RouterProtocol.swift */; };
-		5F731A3523B7452100B09BDD /* CoordinatorProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F731A0D23B7452000B09BDD /* CoordinatorProtocol.swift */; };
-		5F731A3623B7452100B09BDD /* BaseCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F731A0E23B7452000B09BDD /* BaseCoordinator.swift */; };
-		5F731A3723B7452100B09BDD /* TextValidator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F731A1023B7452000B09BDD /* TextValidator.swift */; };
-		5F731A3823B7452100B09BDD /* SignOutViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F731A1223B7452000B09BDD /* SignOutViewController.swift */; };
-		5F731A3923B7452100B09BDD /* FormInputCellViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F731A1323B7452000B09BDD /* FormInputCellViewModel.swift */; };
-		5F731A3A23B7452100B09BDD /* ButtonCellViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F731A1423B7452000B09BDD /* ButtonCellViewModel.swift */; };
-		5F731A3B23B7452100B09BDD /* ErrorMessagePresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F731A1523B7452000B09BDD /* ErrorMessagePresenter.swift */; };
-		5F731A3C23B7452100B09BDD /* SignOutViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F731A1623B7452000B09BDD /* SignOutViewModel.swift */; };
-		5F731A3D23B7452100B09BDD /* SignInFormViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F731A1723B7452000B09BDD /* SignInFormViewModel.swift */; };
-		5F731A3E23B7452100B09BDD /* CreateAccountFormViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F731A1823B7452000B09BDD /* CreateAccountFormViewModel.swift */; };
-		5F731A3F23B7452100B09BDD /* FormViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F731A1923B7452000B09BDD /* FormViewController.swift */; };
-		5F731A4023B7452100B09BDD /* TextCellViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F731A1A23B7452000B09BDD /* TextCellViewModel.swift */; };
-		5F731A4123B7452100B09BDD /* FormView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F731A1B23B7452000B09BDD /* FormView.swift */; };
-		5F731A4223B7452100B09BDD /* TextCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F731A1C23B7452000B09BDD /* TextCell.swift */; };
-		5F731A4323B7452100B09BDD /* ButtonCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F731A1D23B7452000B09BDD /* ButtonCell.swift */; };
-		5F731A4423B7452100B09BDD /* FormInputCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F731A1E23B7452000B09BDD /* FormInputCell.swift */; };
-		5F731A4523B7452100B09BDD /* LoadingRepresentable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F731A2023B7452000B09BDD /* LoadingRepresentable.swift */; };
-		5F731A4623B7452100B09BDD /* Configurable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F731A2123B7452000B09BDD /* Configurable.swift */; };
-		5F731A4723B7452100B09BDD /* TableViewRepresentable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F731A2223B7452000B09BDD /* TableViewRepresentable.swift */; };
-		5F731A4823B7452100B09BDD /* Drawable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F731A2323B7452000B09BDD /* Drawable.swift */; };
-		5F731A4923B7452100B09BDD /* CellRepresentable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F731A2423B7452000B09BDD /* CellRepresentable.swift */; };
-		5F731A4A23B7452100B09BDD /* LoadingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F731A2523B7452000B09BDD /* LoadingView.swift */; };
-		5F731A4B23B7452100B09BDD /* LoadingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F731A2623B7452000B09BDD /* LoadingViewController.swift */; };
-		5F731A4C23B7452100B09BDD /* AuthServiceProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F731A2823B7452100B09BDD /* AuthServiceProtocol.swift */; };
-		5F731A4D23B7452100B09BDD /* FirebaseAuthService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F731A2923B7452100B09BDD /* FirebaseAuthService.swift */; };
-		5F731A4E23B7452100B09BDD /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F731A2B23B7452100B09BDD /* User.swift */; };
-		5F731A4F23B7452100B09BDD /* Credentials.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F731A2C23B7452100B09BDD /* Credentials.swift */; };
+		5F731A7A23B8222000B09BDD /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F731A5123B8221F00B09BDD /* User.swift */; };
+		5F731A7B23B8222000B09BDD /* Credentials.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F731A5223B8221F00B09BDD /* Credentials.swift */; };
+		5F731A7C23B8222000B09BDD /* AuthServiceProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F731A5423B8221F00B09BDD /* AuthServiceProtocol.swift */; };
+		5F731A7D23B8222000B09BDD /* FirebaseAuthService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F731A5523B8221F00B09BDD /* FirebaseAuthService.swift */; };
+		5F731A7E23B8222000B09BDD /* SignOutViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F731A5723B8221F00B09BDD /* SignOutViewController.swift */; };
+		5F731A7F23B8222000B09BDD /* FormInputCellViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F731A5823B8221F00B09BDD /* FormInputCellViewModel.swift */; };
+		5F731A8023B8222000B09BDD /* ButtonCellViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F731A5923B8221F00B09BDD /* ButtonCellViewModel.swift */; };
+		5F731A8123B8222000B09BDD /* ErrorMessagePresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F731A5A23B8221F00B09BDD /* ErrorMessagePresenter.swift */; };
+		5F731A8223B8222000B09BDD /* SignOutViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F731A5B23B8221F00B09BDD /* SignOutViewModel.swift */; };
+		5F731A8323B8222000B09BDD /* SignInFormViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F731A5C23B8221F00B09BDD /* SignInFormViewModel.swift */; };
+		5F731A8423B8222000B09BDD /* CreateAccountFormViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F731A5D23B8221F00B09BDD /* CreateAccountFormViewModel.swift */; };
+		5F731A8523B8222000B09BDD /* FormViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F731A5E23B8221F00B09BDD /* FormViewController.swift */; };
+		5F731A8623B8222000B09BDD /* TextCellViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F731A5F23B8221F00B09BDD /* TextCellViewModel.swift */; };
+		5F731A8723B8222000B09BDD /* FormView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F731A6023B8221F00B09BDD /* FormView.swift */; };
+		5F731A8823B8222000B09BDD /* TextCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F731A6123B8221F00B09BDD /* TextCell.swift */; };
+		5F731A8923B8222000B09BDD /* ButtonCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F731A6223B8221F00B09BDD /* ButtonCell.swift */; };
+		5F731A8A23B8222000B09BDD /* FormInputCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F731A6323B8221F00B09BDD /* FormInputCell.swift */; };
+		5F731A8B23B8222000B09BDD /* LoadingRepresentable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F731A6523B8221F00B09BDD /* LoadingRepresentable.swift */; };
+		5F731A8C23B8222000B09BDD /* Configurable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F731A6623B8221F00B09BDD /* Configurable.swift */; };
+		5F731A8D23B8222000B09BDD /* TableViewRepresentable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F731A6723B8221F00B09BDD /* TableViewRepresentable.swift */; };
+		5F731A8E23B8222000B09BDD /* Drawable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F731A6823B8221F00B09BDD /* Drawable.swift */; };
+		5F731A8F23B8222000B09BDD /* CellRepresentable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F731A6923B8221F00B09BDD /* CellRepresentable.swift */; };
+		5F731A9023B8222000B09BDD /* LoadingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F731A6A23B8221F00B09BDD /* LoadingView.swift */; };
+		5F731A9123B8222000B09BDD /* LoadingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F731A6B23B8221F00B09BDD /* LoadingViewController.swift */; };
+		5F731A9223B8222000B09BDD /* TextValidator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F731A6D23B8221F00B09BDD /* TextValidator.swift */; };
+		5F731A9323B8222000B09BDD /* AppCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F731A6F23B8221F00B09BDD /* AppCoordinator.swift */; };
+		5F731A9423B8222000B09BDD /* AuthCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F731A7023B8222000B09BDD /* AuthCoordinator.swift */; };
+		5F731A9523B8222000B09BDD /* FadeIn.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F731A7123B8222000B09BDD /* FadeIn.swift */; };
+		5F731A9623B8222000B09BDD /* Router.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F731A7223B8222000B09BDD /* Router.swift */; };
+		5F731A9723B8222000B09BDD /* MainCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F731A7323B8222000B09BDD /* MainCoordinator.swift */; };
+		5F731A9823B8222000B09BDD /* RouterProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F731A7423B8222000B09BDD /* RouterProtocol.swift */; };
+		5F731A9923B8222000B09BDD /* CoordinatorProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F731A7523B8222000B09BDD /* CoordinatorProtocol.swift */; };
+		5F731A9A23B8222000B09BDD /* BaseCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F731A7623B8222000B09BDD /* BaseCoordinator.swift */; };
+		5F731A9B23B8222000B09BDD /* ObservableType+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F731A7823B8222000B09BDD /* ObservableType+Extensions.swift */; };
+		5F731A9C23B8222000B09BDD /* NSLayoutConstraint+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F731A7923B8222000B09BDD /* NSLayoutConstraint+Extensions.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -68,7 +67,6 @@
 		2BD71606EDCB9EE2808DF120 /* Pods-RxSwiftSignInExample.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RxSwiftSignInExample.release.xcconfig"; path = "Target Support Files/Pods-RxSwiftSignInExample/Pods-RxSwiftSignInExample.release.xcconfig"; sourceTree = "<group>"; };
 		5F7319DC23B73F1300B09BDD /* RxSwiftSignInExample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RxSwiftSignInExample.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5F7319DF23B73F1300B09BDD /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		5F7319E323B73F1300B09BDD /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		5F7319E623B73F1300B09BDD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		5F7319E823B73F1500B09BDD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		5F7319EB23B73F1500B09BDD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -77,41 +75,41 @@
 		5F7319F623B73F1500B09BDD /* RxSwiftSignInExampleTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RxSwiftSignInExampleTests.swift; sourceTree = "<group>"; };
 		5F7319F823B73F1500B09BDD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		5F731A0123B743FB00B09BDD /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
-		5F731A0423B7451F00B09BDD /* ObservableType+Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "ObservableType+Extensions.swift"; sourceTree = "<group>"; };
-		5F731A0523B7451F00B09BDD /* NSLayoutConstraint+Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "NSLayoutConstraint+Extensions.swift"; sourceTree = "<group>"; };
-		5F731A0723B7452000B09BDD /* AppCoordinator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppCoordinator.swift; sourceTree = "<group>"; };
-		5F731A0823B7452000B09BDD /* AuthCoordinator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AuthCoordinator.swift; sourceTree = "<group>"; };
-		5F731A0923B7452000B09BDD /* FadeIn.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FadeIn.swift; sourceTree = "<group>"; };
-		5F731A0A23B7452000B09BDD /* Router.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Router.swift; sourceTree = "<group>"; };
-		5F731A0B23B7452000B09BDD /* MainCoordinator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainCoordinator.swift; sourceTree = "<group>"; };
-		5F731A0C23B7452000B09BDD /* RouterProtocol.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RouterProtocol.swift; sourceTree = "<group>"; };
-		5F731A0D23B7452000B09BDD /* CoordinatorProtocol.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CoordinatorProtocol.swift; sourceTree = "<group>"; };
-		5F731A0E23B7452000B09BDD /* BaseCoordinator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BaseCoordinator.swift; sourceTree = "<group>"; };
-		5F731A1023B7452000B09BDD /* TextValidator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TextValidator.swift; sourceTree = "<group>"; };
-		5F731A1223B7452000B09BDD /* SignOutViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SignOutViewController.swift; sourceTree = "<group>"; };
-		5F731A1323B7452000B09BDD /* FormInputCellViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FormInputCellViewModel.swift; sourceTree = "<group>"; };
-		5F731A1423B7452000B09BDD /* ButtonCellViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ButtonCellViewModel.swift; sourceTree = "<group>"; };
-		5F731A1523B7452000B09BDD /* ErrorMessagePresenter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ErrorMessagePresenter.swift; sourceTree = "<group>"; };
-		5F731A1623B7452000B09BDD /* SignOutViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SignOutViewModel.swift; sourceTree = "<group>"; };
-		5F731A1723B7452000B09BDD /* SignInFormViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SignInFormViewModel.swift; sourceTree = "<group>"; };
-		5F731A1823B7452000B09BDD /* CreateAccountFormViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CreateAccountFormViewModel.swift; sourceTree = "<group>"; };
-		5F731A1923B7452000B09BDD /* FormViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FormViewController.swift; sourceTree = "<group>"; };
-		5F731A1A23B7452000B09BDD /* TextCellViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TextCellViewModel.swift; sourceTree = "<group>"; };
-		5F731A1B23B7452000B09BDD /* FormView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FormView.swift; sourceTree = "<group>"; };
-		5F731A1C23B7452000B09BDD /* TextCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TextCell.swift; sourceTree = "<group>"; };
-		5F731A1D23B7452000B09BDD /* ButtonCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ButtonCell.swift; sourceTree = "<group>"; };
-		5F731A1E23B7452000B09BDD /* FormInputCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FormInputCell.swift; sourceTree = "<group>"; };
-		5F731A2023B7452000B09BDD /* LoadingRepresentable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoadingRepresentable.swift; sourceTree = "<group>"; };
-		5F731A2123B7452000B09BDD /* Configurable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Configurable.swift; sourceTree = "<group>"; };
-		5F731A2223B7452000B09BDD /* TableViewRepresentable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TableViewRepresentable.swift; sourceTree = "<group>"; };
-		5F731A2323B7452000B09BDD /* Drawable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Drawable.swift; sourceTree = "<group>"; };
-		5F731A2423B7452000B09BDD /* CellRepresentable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CellRepresentable.swift; sourceTree = "<group>"; };
-		5F731A2523B7452000B09BDD /* LoadingView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoadingView.swift; sourceTree = "<group>"; };
-		5F731A2623B7452000B09BDD /* LoadingViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoadingViewController.swift; sourceTree = "<group>"; };
-		5F731A2823B7452100B09BDD /* AuthServiceProtocol.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AuthServiceProtocol.swift; sourceTree = "<group>"; };
-		5F731A2923B7452100B09BDD /* FirebaseAuthService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FirebaseAuthService.swift; sourceTree = "<group>"; };
-		5F731A2B23B7452100B09BDD /* User.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
-		5F731A2C23B7452100B09BDD /* Credentials.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Credentials.swift; sourceTree = "<group>"; };
+		5F731A5123B8221F00B09BDD /* User.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		5F731A5223B8221F00B09BDD /* Credentials.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Credentials.swift; sourceTree = "<group>"; };
+		5F731A5423B8221F00B09BDD /* AuthServiceProtocol.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AuthServiceProtocol.swift; sourceTree = "<group>"; };
+		5F731A5523B8221F00B09BDD /* FirebaseAuthService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FirebaseAuthService.swift; sourceTree = "<group>"; };
+		5F731A5723B8221F00B09BDD /* SignOutViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SignOutViewController.swift; sourceTree = "<group>"; };
+		5F731A5823B8221F00B09BDD /* FormInputCellViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FormInputCellViewModel.swift; sourceTree = "<group>"; };
+		5F731A5923B8221F00B09BDD /* ButtonCellViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ButtonCellViewModel.swift; sourceTree = "<group>"; };
+		5F731A5A23B8221F00B09BDD /* ErrorMessagePresenter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ErrorMessagePresenter.swift; sourceTree = "<group>"; };
+		5F731A5B23B8221F00B09BDD /* SignOutViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SignOutViewModel.swift; sourceTree = "<group>"; };
+		5F731A5C23B8221F00B09BDD /* SignInFormViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SignInFormViewModel.swift; sourceTree = "<group>"; };
+		5F731A5D23B8221F00B09BDD /* CreateAccountFormViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CreateAccountFormViewModel.swift; sourceTree = "<group>"; };
+		5F731A5E23B8221F00B09BDD /* FormViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FormViewController.swift; sourceTree = "<group>"; };
+		5F731A5F23B8221F00B09BDD /* TextCellViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TextCellViewModel.swift; sourceTree = "<group>"; };
+		5F731A6023B8221F00B09BDD /* FormView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FormView.swift; sourceTree = "<group>"; };
+		5F731A6123B8221F00B09BDD /* TextCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TextCell.swift; sourceTree = "<group>"; };
+		5F731A6223B8221F00B09BDD /* ButtonCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ButtonCell.swift; sourceTree = "<group>"; };
+		5F731A6323B8221F00B09BDD /* FormInputCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FormInputCell.swift; sourceTree = "<group>"; };
+		5F731A6523B8221F00B09BDD /* LoadingRepresentable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoadingRepresentable.swift; sourceTree = "<group>"; };
+		5F731A6623B8221F00B09BDD /* Configurable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Configurable.swift; sourceTree = "<group>"; };
+		5F731A6723B8221F00B09BDD /* TableViewRepresentable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TableViewRepresentable.swift; sourceTree = "<group>"; };
+		5F731A6823B8221F00B09BDD /* Drawable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Drawable.swift; sourceTree = "<group>"; };
+		5F731A6923B8221F00B09BDD /* CellRepresentable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CellRepresentable.swift; sourceTree = "<group>"; };
+		5F731A6A23B8221F00B09BDD /* LoadingView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoadingView.swift; sourceTree = "<group>"; };
+		5F731A6B23B8221F00B09BDD /* LoadingViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoadingViewController.swift; sourceTree = "<group>"; };
+		5F731A6D23B8221F00B09BDD /* TextValidator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TextValidator.swift; sourceTree = "<group>"; };
+		5F731A6F23B8221F00B09BDD /* AppCoordinator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppCoordinator.swift; sourceTree = "<group>"; };
+		5F731A7023B8222000B09BDD /* AuthCoordinator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AuthCoordinator.swift; sourceTree = "<group>"; };
+		5F731A7123B8222000B09BDD /* FadeIn.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FadeIn.swift; sourceTree = "<group>"; };
+		5F731A7223B8222000B09BDD /* Router.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Router.swift; sourceTree = "<group>"; };
+		5F731A7323B8222000B09BDD /* MainCoordinator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainCoordinator.swift; sourceTree = "<group>"; };
+		5F731A7423B8222000B09BDD /* RouterProtocol.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RouterProtocol.swift; sourceTree = "<group>"; };
+		5F731A7523B8222000B09BDD /* CoordinatorProtocol.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CoordinatorProtocol.swift; sourceTree = "<group>"; };
+		5F731A7623B8222000B09BDD /* BaseCoordinator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BaseCoordinator.swift; sourceTree = "<group>"; };
+		5F731A7823B8222000B09BDD /* ObservableType+Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "ObservableType+Extensions.swift"; sourceTree = "<group>"; };
+		5F731A7923B8222000B09BDD /* NSLayoutConstraint+Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "NSLayoutConstraint+Extensions.swift"; sourceTree = "<group>"; };
 		D58FF392631AB6C57CBBF8CA /* Pods_RxSwiftSignInExampleTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_RxSwiftSignInExampleTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		DC7060414331C8905581DEA6 /* Pods_RxSwiftSignInExample.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_RxSwiftSignInExample.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		F461C3E439E66DAC92338092 /* Pods-RxSwiftSignInExample.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RxSwiftSignInExample.debug.xcconfig"; path = "Target Support Files/Pods-RxSwiftSignInExample/Pods-RxSwiftSignInExample.debug.xcconfig"; sourceTree = "<group>"; };
@@ -172,14 +170,13 @@
 		5F7319DE23B73F1300B09BDD /* RxSwiftSignInExample */ = {
 			isa = PBXGroup;
 			children = (
-				5F731A0623B7452000B09BDD /* Navigation */,
-				5F731A2723B7452100B09BDD /* Networking */,
-				5F731A1123B7452000B09BDD /* UI */,
-				5F731A2A23B7452100B09BDD /* Models */,
-				5F731A0323B7451F00B09BDD /* Extensions */,
-				5F731A0F23B7452000B09BDD /* Utilities */,
+				5F731A7723B8222000B09BDD /* Extensions */,
+				5F731A5023B8221F00B09BDD /* Models */,
+				5F731A6E23B8221F00B09BDD /* Navigation */,
+				5F731A5323B8221F00B09BDD /* Networking */,
+				5F731A5623B8221F00B09BDD /* UI */,
+				5F731A6C23B8221F00B09BDD /* Utilities */,
 				5F7319DF23B73F1300B09BDD /* AppDelegate.swift */,
-				5F7319E323B73F1300B09BDD /* ViewController.swift */,
 				5F7319E523B73F1300B09BDD /* Main.storyboard */,
 				5F7319E823B73F1500B09BDD /* Assets.xcassets */,
 				5F7319EA23B73F1500B09BDD /* LaunchScreen.storyboard */,
@@ -198,95 +195,89 @@
 			path = RxSwiftSignInExampleTests;
 			sourceTree = "<group>";
 		};
-		5F731A0323B7451F00B09BDD /* Extensions */ = {
+		5F731A5023B8221F00B09BDD /* Models */ = {
 			isa = PBXGroup;
 			children = (
-				5F731A0423B7451F00B09BDD /* ObservableType+Extensions.swift */,
-				5F731A0523B7451F00B09BDD /* NSLayoutConstraint+Extensions.swift */,
+				5F731A5123B8221F00B09BDD /* User.swift */,
+				5F731A5223B8221F00B09BDD /* Credentials.swift */,
 			);
-			name = Extensions;
-			path = ../../Doodler/Doodler/Extensions;
+			path = Models;
 			sourceTree = "<group>";
 		};
-		5F731A0623B7452000B09BDD /* Navigation */ = {
+		5F731A5323B8221F00B09BDD /* Networking */ = {
 			isa = PBXGroup;
 			children = (
-				5F731A0723B7452000B09BDD /* AppCoordinator.swift */,
-				5F731A0823B7452000B09BDD /* AuthCoordinator.swift */,
-				5F731A0923B7452000B09BDD /* FadeIn.swift */,
-				5F731A0A23B7452000B09BDD /* Router.swift */,
-				5F731A0B23B7452000B09BDD /* MainCoordinator.swift */,
-				5F731A0C23B7452000B09BDD /* RouterProtocol.swift */,
-				5F731A0D23B7452000B09BDD /* CoordinatorProtocol.swift */,
-				5F731A0E23B7452000B09BDD /* BaseCoordinator.swift */,
+				5F731A5423B8221F00B09BDD /* AuthServiceProtocol.swift */,
+				5F731A5523B8221F00B09BDD /* FirebaseAuthService.swift */,
 			);
-			name = Navigation;
-			path = ../../Doodler/Doodler/Navigation;
+			path = Networking;
 			sourceTree = "<group>";
 		};
-		5F731A0F23B7452000B09BDD /* Utilities */ = {
+		5F731A5623B8221F00B09BDD /* UI */ = {
 			isa = PBXGroup;
 			children = (
-				5F731A1023B7452000B09BDD /* TextValidator.swift */,
+				5F731A5723B8221F00B09BDD /* SignOutViewController.swift */,
+				5F731A5823B8221F00B09BDD /* FormInputCellViewModel.swift */,
+				5F731A5923B8221F00B09BDD /* ButtonCellViewModel.swift */,
+				5F731A5A23B8221F00B09BDD /* ErrorMessagePresenter.swift */,
+				5F731A5B23B8221F00B09BDD /* SignOutViewModel.swift */,
+				5F731A5C23B8221F00B09BDD /* SignInFormViewModel.swift */,
+				5F731A5D23B8221F00B09BDD /* CreateAccountFormViewModel.swift */,
+				5F731A5E23B8221F00B09BDD /* FormViewController.swift */,
+				5F731A5F23B8221F00B09BDD /* TextCellViewModel.swift */,
+				5F731A6023B8221F00B09BDD /* FormView.swift */,
+				5F731A6123B8221F00B09BDD /* TextCell.swift */,
+				5F731A6223B8221F00B09BDD /* ButtonCell.swift */,
+				5F731A6323B8221F00B09BDD /* FormInputCell.swift */,
+				5F731A6423B8221F00B09BDD /* Helpers */,
+				5F731A6A23B8221F00B09BDD /* LoadingView.swift */,
+				5F731A6B23B8221F00B09BDD /* LoadingViewController.swift */,
 			);
-			name = Utilities;
-			path = ../../Doodler/Doodler/Utilities;
+			path = UI;
 			sourceTree = "<group>";
 		};
-		5F731A1123B7452000B09BDD /* UI */ = {
+		5F731A6423B8221F00B09BDD /* Helpers */ = {
 			isa = PBXGroup;
 			children = (
-				5F731A1223B7452000B09BDD /* SignOutViewController.swift */,
-				5F731A1323B7452000B09BDD /* FormInputCellViewModel.swift */,
-				5F731A1423B7452000B09BDD /* ButtonCellViewModel.swift */,
-				5F731A1523B7452000B09BDD /* ErrorMessagePresenter.swift */,
-				5F731A1623B7452000B09BDD /* SignOutViewModel.swift */,
-				5F731A1723B7452000B09BDD /* SignInFormViewModel.swift */,
-				5F731A1823B7452000B09BDD /* CreateAccountFormViewModel.swift */,
-				5F731A1923B7452000B09BDD /* FormViewController.swift */,
-				5F731A1A23B7452000B09BDD /* TextCellViewModel.swift */,
-				5F731A1B23B7452000B09BDD /* FormView.swift */,
-				5F731A1C23B7452000B09BDD /* TextCell.swift */,
-				5F731A1D23B7452000B09BDD /* ButtonCell.swift */,
-				5F731A1E23B7452000B09BDD /* FormInputCell.swift */,
-				5F731A1F23B7452000B09BDD /* Helpers */,
-				5F731A2523B7452000B09BDD /* LoadingView.swift */,
-				5F731A2623B7452000B09BDD /* LoadingViewController.swift */,
-			);
-			name = UI;
-			path = ../../Doodler/Doodler/UI;
-			sourceTree = "<group>";
-		};
-		5F731A1F23B7452000B09BDD /* Helpers */ = {
-			isa = PBXGroup;
-			children = (
-				5F731A2023B7452000B09BDD /* LoadingRepresentable.swift */,
-				5F731A2123B7452000B09BDD /* Configurable.swift */,
-				5F731A2223B7452000B09BDD /* TableViewRepresentable.swift */,
-				5F731A2323B7452000B09BDD /* Drawable.swift */,
-				5F731A2423B7452000B09BDD /* CellRepresentable.swift */,
+				5F731A6523B8221F00B09BDD /* LoadingRepresentable.swift */,
+				5F731A6623B8221F00B09BDD /* Configurable.swift */,
+				5F731A6723B8221F00B09BDD /* TableViewRepresentable.swift */,
+				5F731A6823B8221F00B09BDD /* Drawable.swift */,
+				5F731A6923B8221F00B09BDD /* CellRepresentable.swift */,
 			);
 			path = Helpers;
 			sourceTree = "<group>";
 		};
-		5F731A2723B7452100B09BDD /* Networking */ = {
+		5F731A6C23B8221F00B09BDD /* Utilities */ = {
 			isa = PBXGroup;
 			children = (
-				5F731A2823B7452100B09BDD /* AuthServiceProtocol.swift */,
-				5F731A2923B7452100B09BDD /* FirebaseAuthService.swift */,
+				5F731A6D23B8221F00B09BDD /* TextValidator.swift */,
 			);
-			name = Networking;
-			path = ../../Doodler/Doodler/Networking;
+			path = Utilities;
 			sourceTree = "<group>";
 		};
-		5F731A2A23B7452100B09BDD /* Models */ = {
+		5F731A6E23B8221F00B09BDD /* Navigation */ = {
 			isa = PBXGroup;
 			children = (
-				5F731A2B23B7452100B09BDD /* User.swift */,
-				5F731A2C23B7452100B09BDD /* Credentials.swift */,
+				5F731A6F23B8221F00B09BDD /* AppCoordinator.swift */,
+				5F731A7023B8222000B09BDD /* AuthCoordinator.swift */,
+				5F731A7123B8222000B09BDD /* FadeIn.swift */,
+				5F731A7223B8222000B09BDD /* Router.swift */,
+				5F731A7323B8222000B09BDD /* MainCoordinator.swift */,
+				5F731A7423B8222000B09BDD /* RouterProtocol.swift */,
+				5F731A7523B8222000B09BDD /* CoordinatorProtocol.swift */,
+				5F731A7623B8222000B09BDD /* BaseCoordinator.swift */,
 			);
-			name = Models;
-			path = ../../Doodler/Doodler/Models;
+			path = Navigation;
+			sourceTree = "<group>";
+		};
+		5F731A7723B8222000B09BDD /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				5F731A7823B8222000B09BDD /* ObservableType+Extensions.swift */,
+				5F731A7923B8222000B09BDD /* NSLayoutConstraint+Extensions.swift */,
+			);
+			path = Extensions;
 			sourceTree = "<group>";
 		};
 		BB44D0CC12A09957F311A597 /* Frameworks */ = {
@@ -467,43 +458,42 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5F731A3223B7452100B09BDD /* Router.swift in Sources */,
-				5F731A3123B7452100B09BDD /* FadeIn.swift in Sources */,
-				5F731A4723B7452100B09BDD /* TableViewRepresentable.swift in Sources */,
-				5F731A3423B7452100B09BDD /* RouterProtocol.swift in Sources */,
-				5F7319E423B73F1300B09BDD /* ViewController.swift in Sources */,
-				5F731A4A23B7452100B09BDD /* LoadingView.swift in Sources */,
-				5F731A2E23B7452100B09BDD /* NSLayoutConstraint+Extensions.swift in Sources */,
-				5F731A2F23B7452100B09BDD /* AppCoordinator.swift in Sources */,
-				5F731A4B23B7452100B09BDD /* LoadingViewController.swift in Sources */,
-				5F731A4423B7452100B09BDD /* FormInputCell.swift in Sources */,
-				5F731A3823B7452100B09BDD /* SignOutViewController.swift in Sources */,
-				5F731A4823B7452100B09BDD /* Drawable.swift in Sources */,
-				5F731A4023B7452100B09BDD /* TextCellViewModel.swift in Sources */,
-				5F731A3523B7452100B09BDD /* CoordinatorProtocol.swift in Sources */,
-				5F731A4623B7452100B09BDD /* Configurable.swift in Sources */,
-				5F731A3623B7452100B09BDD /* BaseCoordinator.swift in Sources */,
-				5F731A3F23B7452100B09BDD /* FormViewController.swift in Sources */,
-				5F731A3D23B7452100B09BDD /* SignInFormViewModel.swift in Sources */,
+				5F731A7D23B8222000B09BDD /* FirebaseAuthService.swift in Sources */,
+				5F731A8623B8222000B09BDD /* TextCellViewModel.swift in Sources */,
+				5F731A9823B8222000B09BDD /* RouterProtocol.swift in Sources */,
+				5F731A7B23B8222000B09BDD /* Credentials.swift in Sources */,
+				5F731A7C23B8222000B09BDD /* AuthServiceProtocol.swift in Sources */,
+				5F731A7A23B8222000B09BDD /* User.swift in Sources */,
+				5F731A9523B8222000B09BDD /* FadeIn.swift in Sources */,
+				5F731A9023B8222000B09BDD /* LoadingView.swift in Sources */,
+				5F731A9323B8222000B09BDD /* AppCoordinator.swift in Sources */,
+				5F731A8423B8222000B09BDD /* CreateAccountFormViewModel.swift in Sources */,
+				5F731A9123B8222000B09BDD /* LoadingViewController.swift in Sources */,
+				5F731A8B23B8222000B09BDD /* LoadingRepresentable.swift in Sources */,
+				5F731A8223B8222000B09BDD /* SignOutViewModel.swift in Sources */,
+				5F731A9C23B8222000B09BDD /* NSLayoutConstraint+Extensions.swift in Sources */,
+				5F731A8023B8222000B09BDD /* ButtonCellViewModel.swift in Sources */,
+				5F731A8123B8222000B09BDD /* ErrorMessagePresenter.swift in Sources */,
+				5F731A8C23B8222000B09BDD /* Configurable.swift in Sources */,
+				5F731A7E23B8222000B09BDD /* SignOutViewController.swift in Sources */,
+				5F731A9B23B8222000B09BDD /* ObservableType+Extensions.swift in Sources */,
+				5F731A9923B8222000B09BDD /* CoordinatorProtocol.swift in Sources */,
+				5F731A8323B8222000B09BDD /* SignInFormViewModel.swift in Sources */,
+				5F731A8F23B8222000B09BDD /* CellRepresentable.swift in Sources */,
 				5F7319E023B73F1300B09BDD /* AppDelegate.swift in Sources */,
-				5F731A4923B7452100B09BDD /* CellRepresentable.swift in Sources */,
-				5F731A4D23B7452100B09BDD /* FirebaseAuthService.swift in Sources */,
-				5F731A3023B7452100B09BDD /* AuthCoordinator.swift in Sources */,
-				5F731A4C23B7452100B09BDD /* AuthServiceProtocol.swift in Sources */,
-				5F731A3E23B7452100B09BDD /* CreateAccountFormViewModel.swift in Sources */,
-				5F731A3923B7452100B09BDD /* FormInputCellViewModel.swift in Sources */,
-				5F731A3A23B7452100B09BDD /* ButtonCellViewModel.swift in Sources */,
-				5F731A4123B7452100B09BDD /* FormView.swift in Sources */,
-				5F731A4523B7452100B09BDD /* LoadingRepresentable.swift in Sources */,
-				5F731A3323B7452100B09BDD /* MainCoordinator.swift in Sources */,
-				5F731A2D23B7452100B09BDD /* ObservableType+Extensions.swift in Sources */,
-				5F731A3B23B7452100B09BDD /* ErrorMessagePresenter.swift in Sources */,
-				5F731A3C23B7452100B09BDD /* SignOutViewModel.swift in Sources */,
-				5F731A4E23B7452100B09BDD /* User.swift in Sources */,
-				5F731A4F23B7452100B09BDD /* Credentials.swift in Sources */,
-				5F731A4223B7452100B09BDD /* TextCell.swift in Sources */,
-				5F731A4323B7452100B09BDD /* ButtonCell.swift in Sources */,
-				5F731A3723B7452100B09BDD /* TextValidator.swift in Sources */,
+				5F731A9423B8222000B09BDD /* AuthCoordinator.swift in Sources */,
+				5F731A9723B8222000B09BDD /* MainCoordinator.swift in Sources */,
+				5F731A9A23B8222000B09BDD /* BaseCoordinator.swift in Sources */,
+				5F731A8723B8222000B09BDD /* FormView.swift in Sources */,
+				5F731A8E23B8222000B09BDD /* Drawable.swift in Sources */,
+				5F731A9623B8222000B09BDD /* Router.swift in Sources */,
+				5F731A8923B8222000B09BDD /* ButtonCell.swift in Sources */,
+				5F731A8A23B8222000B09BDD /* FormInputCell.swift in Sources */,
+				5F731A7F23B8222000B09BDD /* FormInputCellViewModel.swift in Sources */,
+				5F731A8D23B8222000B09BDD /* TableViewRepresentable.swift in Sources */,
+				5F731A8823B8222000B09BDD /* TextCell.swift in Sources */,
+				5F731A8523B8222000B09BDD /* FormViewController.swift in Sources */,
+				5F731A9223B8222000B09BDD /* TextValidator.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
