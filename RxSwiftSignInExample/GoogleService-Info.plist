@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CLIENT_ID</key>
+	<string>318357952197-t39vbjt2j79u091u955o2v7kc2r5qka9.apps.googleusercontent.com</string>
+	<key>REVERSED_CLIENT_ID</key>
+	<string>com.googleusercontent.apps.318357952197-t39vbjt2j79u091u955o2v7kc2r5qka9</string>
+	<key>API_KEY</key>
+	<string>AIzaSyBuV2NdtjbYjIp2zwIHHqmX-A03bCKbi9s</string>
+	<key>GCM_SENDER_ID</key>
+	<string>318357952197</string>
+	<key>PLIST_VERSION</key>
+	<string>1</string>
+	<key>BUNDLE_ID</key>
+	<string>com.SamsonLLC.RxSwiftSignInExample</string>
+	<key>PROJECT_ID</key>
+	<string>rxswiftsigninexample</string>
+	<key>STORAGE_BUCKET</key>
+	<string>rxswiftsigninexample.appspot.com</string>
+	<key>IS_ADS_ENABLED</key>
+	<false/>
+	<key>IS_ANALYTICS_ENABLED</key>
+	<false/>
+	<key>IS_APPINVITE_ENABLED</key>
+	<true/>
+	<key>IS_GCM_ENABLED</key>
+	<true/>
+	<key>IS_SIGNIN_ENABLED</key>
+	<true/>
+	<key>GOOGLE_APP_ID</key>
+	<string>1:318357952197:ios:ae8c931abe2280e49482ac</string>
+	<key>DATABASE_URL</key>
+	<string>https://rxswiftsigninexample.firebaseio.com</string>
+</dict>
+</plist>
