@@ -6,7 +6,7 @@
 
 ## **About**
 
-A simple, unstylized project for the purpose of learning how to combine MVVM + Coordinators + RxSwift
+A simple, unstylized project for the purpose of learning how to combine MVVM + Coordinators + RxSwift. User authorization is handled via Firebase.
 
 In this project RxSwift is used to:
 
@@ -26,4 +26,4 @@ In the project directory run
 pod install
 ```
 
-Then open and run the `RxSwiftSignInExample.workspace`
+Then open and run the `RxSwiftSignInExample.workspace`. When running the app in simulator you may have toggle the keyboard using command + K.
